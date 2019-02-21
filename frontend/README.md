@@ -63,3 +63,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+```js
+npm run build
+open public/index.html
+```
