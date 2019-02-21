@@ -73,5 +73,37 @@ open public/index.html
 
 We already have `typescript`.
 ```js
-npm i ts-node-dev concurrently
+npm i ts-node-dev concurrently @types/node
+```
+
+`tsconfig.server.json`
+```json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib"
+  },
+  "exclude": [
+    "src/app"
+  ]
+}
+```
+
+`src/server/server.ts`
+```ts
+import http from 'http';
+
+http.createServer((req,res) => {
+  res.write('Hello world');
+  res.end('\n');
+}).listen(80);
+```
+
+`package.json`
+```
+    "build:fe": "webpack -p",
+    "start:fe": "webpack-dev-server -d --content-base ./public",
+    "build:be": "tsc -p tsconfig.server.json",
+    "start:be": "ts-node-dev src/server/server.ts",
+    "start": "concurrently \"npm run start:be\" && \"npm run start:fe\""
 ```
