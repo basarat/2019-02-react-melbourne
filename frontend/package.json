@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server -d --content-base ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "webpack": "4.29.5",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.2.0"
+  }
+}
