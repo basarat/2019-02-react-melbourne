@@ -54,3 +54,12 @@ document.write('hello world');
 ```sh
 npm i react react-dom @types/react @types/react-dom
 ```
+```tsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <div>Hello world</div>,
+  document.getElementById('root')
+);
+```
