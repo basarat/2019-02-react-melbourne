@@ -1,7 +1,6 @@
 ```sh
 npm init -y
-npm i webpack webpack-cli webpack-dev-server
-npm i typescript ts-loader
+npm i webpack webpack-cli webpack-dev-server typescript ts-loader
 npx tsc --init
 ```
 
