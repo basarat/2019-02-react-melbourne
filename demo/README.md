@@ -109,3 +109,21 @@ http.createServer((req,res) => {
     "build": "npm run build:be && npm run build:fe",
     "start": "concurrently \"npm run start:be\" \"npm run start:fe\""
 ```
+
+# Peumal 
+`src/common/peumal.ts`
+```ts
+export function peumal() {
+  return 'Peumal';
+}
+```
+
+`src/app/app.tsx`
+```ts
+<div>{peumal()}</div>,
+```
+
+`src/server/server.ts`
+```ts
+console.log(peumal());
+```
