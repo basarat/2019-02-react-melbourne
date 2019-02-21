@@ -81,6 +81,7 @@ npm i ts-node-dev concurrently @types/node
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "rootDir": "src",
     "outDir": "lib"
   },
   "exclude": [
@@ -96,7 +97,7 @@ import http from 'http';
 http.createServer((req,res) => {
   res.write('Hello world');
   res.end('\n');
-}).listen(80);
+}).listen(3000);
 ```
 
 `package.json`
