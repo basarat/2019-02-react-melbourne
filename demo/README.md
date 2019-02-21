@@ -68,3 +68,10 @@ ReactDOM.render(
 npm run build
 open public/index.html
 ```
+
+# Now lets add some backend
+
+We already have `typescript`.
+```js
+npm i ts-node-dev concurrently
+```

@@ -12,9 +12,11 @@
   "dependencies": {
     "@types/react": "16.8.4",
     "@types/react-dom": "16.8.2",
+    "concurrently": "4.1.0",
     "react": "16.8.2",
     "react-dom": "16.8.2",
     "ts-loader": "5.3.3",
+    "ts-node-dev": "1.0.0-pre.32",
     "typescript": "3.3.3",
     "webpack": "4.29.5",
     "webpack-cli": "3.2.3",
