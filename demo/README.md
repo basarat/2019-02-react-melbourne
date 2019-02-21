@@ -106,5 +106,6 @@ http.createServer((req,res) => {
     "start:fe": "webpack-dev-server -d --content-base ./public",
     "build:be": "tsc -p tsconfig.server.json",
     "start:be": "ts-node-dev src/server/server.ts",
+    "build": "npm run build:be && npm run build:fe",
     "start": "concurrently \"npm run start:be\" \"npm run start:fe\""
 ```
