@@ -7,4 +7,4 @@
 
 ## Setup a fullstack TypeScript dev environment
 
-[![](https://img.youtube.com/vi/QeBGnmo1ieo/0.jpg)](https://www.youtube.com/watch?v=QeBGnmo1ieo)
+[![](https://img.youtube.com/vi/QeBGnmo1ieo/0.jpg)](https://www.youtube.com/watch?v=QeBGnmo1ieo) [![Greenkeeper badge](https://badges.greenkeeper.io/basarat/2019-02-react-melbourne.svg)](https://greenkeeper.io/)
